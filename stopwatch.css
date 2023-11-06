@@ -1,0 +1,32 @@
+#box{
+    background-color: rgb(19, 18, 18);
+    border-color: aliceblue;
+    border-radius: 10px;
+    margin: 100px 500px 30px 500px;
+    border-width: 5px;
+    padding: 50px ;
+}
+#box1,#box2,.buttons{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
+#box2{
+    margin-bottom: 20px;
+}
+.hrs,.min,.sec{
+    color: aliceblue;
+    font-size: 50px;
+    padding-right: 10px;
+    font-weight: bolder;
+    display: flex;
+}
+.buttons{
+    padding: 0px 0px 0px 0px;
+}
+button{
+    border-radius: 20px;
+    background-color:whitesmoke;
+    border-color: grey;
+    font-size: 20px;
+}
